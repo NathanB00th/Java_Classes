@@ -1,7 +1,7 @@
 public class Runner {
 
     public static void main(String[] args) {
-        Car myCar = new Car(1934, "Deusenberg", "Model J");
+        Car myCar = new Car(1934, "Duesenberg", "Model J");
         System.out.println(myCar.toString());
         myCar.drive(23);
         System.out.println(myCar.toString());
